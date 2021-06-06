@@ -1,10 +1,15 @@
-import React from 'react'
-import { View, Text } from 'react-native'
+import React from 'react';
+import { View, Text } from 'react-native';
+import StatusBarPage from '../../components/StatusBarPage';
 
 const MyLinks = () => {
   return (
     <View>
-      <Text></Text>
+      <StatusBarPage
+        barStyle="light-content"
+        backgroundColor="#132742"
+      />
+      <Text>Meus Links</Text>
     </View>
   )
 }
